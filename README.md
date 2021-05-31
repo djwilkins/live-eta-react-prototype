@@ -48,3 +48,19 @@ Complete basic react app setup for hello world test.
 ** index.js file takes care of rendering to dom node
 ** app.js is top level functional component
 * Put root node div in index.html and link to index.js script
+* Test by executing parcel build/serve script:
+  * $ npm run dev
+
+It's worth noting that when you use "Create-React-App" / react-scripts,
+an explicit reference in the index.html to the index.js is not required.
+
+Some discussion/explanation here: https://stackoverflow.com/questions/41738421/how-react-js-index-js-file-contacting-index-html-for-id-references
+
+## Simple "Hello World" Test w/ Material-UI
+
+Complete basic react app setup for hello world test utilizing Material-UI.
+
+* Use Material-UI Typography component for "Hello World" text.
+* Apply styles to center text horizontally (Typography componenet "align" prop)
+* And include some top/bottom margin (utilzing Material UI makeStyles/useStyles pattern)
+* Also fix app.js -> App.js component file to capitalized.
