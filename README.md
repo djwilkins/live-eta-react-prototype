@@ -39,3 +39,12 @@ The purpose of this project is to create a simple prototype of the fuller "smart
 * And add Material-UI google font dependency to index.html
 * Source: [Material-UI Official Docs - Getting Started](https://material-ui.com/getting-started/installation/)
   * Note: Will probably install icons package later (when need arises)
+
+## Simple "Hello World" Test
+
+Complete basic react app setup for hello world test.
+
+* Create index.js and app.js files
+** index.js file takes care of rendering to dom node
+** app.js is top level functional component
+* Put root node div in index.html and link to index.js script

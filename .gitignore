@@ -1,2 +1,4 @@
 # .gitignore (I'm including for reference...but could also exclude/ignore this.)
 node_modules
+.cache
+dist
