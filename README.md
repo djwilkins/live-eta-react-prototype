@@ -22,3 +22,12 @@ The purpose of this project is to create a simple prototype of the fuller "smart
 
 * $ npm init -y
 * Added .gitignore
+
+## Install Parcel, React and Index.html
+
+* Install Parcel for build/server (Webpack alternative)
+  * $ npm install -D parcel-bundler
+  * Add parcel "dev" build/serve command to package.json
+* Install React web basics
+  * $ npm I react react-dom
+* Add /src/index.html (! -> emmet html boilerplate)
