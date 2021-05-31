@@ -18,3 +18,7 @@ The purpose of this project is to create a simple prototype of the fuller "smart
 * README.md created
 * Pushed to github
 
+## Node Init Commit
+
+* $ npm init -y
+* Added .gitignore
