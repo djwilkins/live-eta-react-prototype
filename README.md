@@ -31,3 +31,11 @@ The purpose of this project is to create a simple prototype of the fuller "smart
 * Install React web basics
   * $ npm I react react-dom
 * Add /src/index.html (! -> emmet html boilerplate)
+
+## Install Material-UI Core
+
+* Install Material-UI Core
+  * $ npm install @material-ui/core
+* And add Material-UI google font dependency to index.html
+* Source: [Material-UI Official Docs - Getting Started](https://material-ui.com/getting-started/installation/)
+  * Note: Will probably install icons package later (when need arises)
