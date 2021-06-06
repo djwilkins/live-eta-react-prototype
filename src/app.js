@@ -16,12 +16,10 @@ export default function App() {
     ];
 
     return (
-        <div>
-            <CenterBox>
-                {myTasks.map((task, index) => (
-                    <Task task={task} key={index} />
-                ))}
-            </CenterBox>
-        </div>
+        <CenterBox>
+            {myTasks.map((task, index) => (
+                <Task task={task} key={index} />
+            ))}
+        </CenterBox>
     )
 }
