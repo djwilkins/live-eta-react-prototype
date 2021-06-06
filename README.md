@@ -75,3 +75,7 @@ In this update, created a CenterBox component that utilizes two Material UI Box 
 Also, created a custom Material UI Badge component called Styled Badge to get the time holding Badge placement where desired.
 
 Next, will continue to better organize things and further flesh out the UI.
+
+# Create "Live ETA" Prototype - Further UI Work
+
+Starting with moving Card component and children to a new Task component.
