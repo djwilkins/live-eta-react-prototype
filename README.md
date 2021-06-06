@@ -1,14 +1,11 @@
 # Purpose
 
-The purpose of this project is to create a simple prototype of the fuller "smart saver" React app I will create in the near future.
+The purpose of this project is to create a simple prototype of the fuller "Live ETA" React app I will create in the near future.
 
 ## Requirements
 
-* Input - Users DOB, Cost of Living (post income tax), Target Retirement Age, Assumed Inflation Rate
-* Output - Users cost of living (post income tax) inflated to target age of retirement.
-* React App - useState and useEffect hooks used
-* Material UI - componants utilized for UI input/output
-* Separate Module for Logic - Revealing module pattern
+* Task component has basic UI worked out for Action state/view (Edit view will wait real project)
+* Task component passed down tasks as prop
 
 # Commits
 
@@ -64,3 +61,17 @@ Complete basic react app setup for hello world test utilizing Material-UI.
 * Apply styles to center text horizontally (Typography componenet "align" prop)
 * And include some top/bottom margin (utilzing Material UI makeStyles/useStyles pattern)
 * Also fix app.js -> App.js component file to capitalized.
+
+# Create "Live ETA" Prototype
+
+Realized better to prototype App I'll be working on sooner.
+
+Here, I'm hard coding "tasks" to use while developing UI elements.
+
+Most logic and state management will wait for the actual app.
+
+In this update, created a CenterBox component that utilizes two Material UI Box components to center everything.
+
+Also, created a custom Material UI Badge component called Styled Badge to get the time holding Badge placement where desired.
+
+Next, will continue to better organize things and further flesh out the UI.
