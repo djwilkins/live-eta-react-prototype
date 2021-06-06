@@ -1,5 +1,7 @@
 import React from 'react'
 import Button from '@material-ui/core/Button';
+import EditIcon from '@material-ui/icons/Edit';
+import RestoreIcon from '@material-ui/icons/Restore';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles ((theme) => ({
@@ -22,8 +24,8 @@ export default function AppControls() {
 
     return (
         <div className={classes.buttonGroup}>
-            <Button className={classes.editButton} size="large" variant="contained" color="default" disableElevation>Edit</Button>
-            <Button className={classes.resetButton} size="large" variant="contained" color="default" disableElevation>Reset Tasks</Button>
+            <Button className={classes.editButton} size="large" variant="contained" color="default" disableElevation startIcon={<EditIcon />}>Edit</Button>
+            <Button className={classes.resetButton} size="large" variant="contained" color="default" disableElevation startIcon={<RestoreIcon />}>Reset Tasks</Button>
         </div>
     )
 }

@@ -83,3 +83,9 @@ Starting with moving Card component and children to a new Task component.
 And then by planning out other componenets with JSX comments in App.js
 
 And creating Tasks, AppTitle and AppControls components (leaving TaskTimer and EtaDisplay to go for overall layout plan).
+
+# Create "Live ETA" Prototype - Adding Icons to AppControls
+
+Quick update adding icons in the Button(s) of the AppControls componenent.
+
+After first installing material ui buttons module - $ npm install @material-ui/icons

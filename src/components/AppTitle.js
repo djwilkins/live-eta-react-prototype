@@ -6,7 +6,7 @@ const useStyles = makeStyles ((theme) => ({
     appTitle: {
         position: "relative",
         marginTop: theme.spacing(3),
-        left: "-3px" // Title has some internal space before first letter not after last (even with padding/margin zeroed out). Fixing with slight offset here.
+        left: "-4px" // Title has some internal space before first letter not after last (even with padding/margin zeroed out). Fixing with slight offset here.
     }
 }))
 
