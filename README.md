@@ -79,3 +79,7 @@ Next, will continue to better organize things and further flesh out the UI.
 # Create "Live ETA" Prototype - Further UI Work
 
 Starting with moving Card component and children to a new Task component.
+
+And then by planning out other componenets with JSX comments in App.js
+
+And creating Tasks, AppTitle and AppControls components (leaving TaskTimer and EtaDisplay to go for overall layout plan).

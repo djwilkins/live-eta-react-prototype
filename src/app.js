@@ -1,6 +1,8 @@
 import React from 'react'
-import Task from './components/Task';
 import CenterBox from './components/CenterBox';
+import AppTitle from './components/AppTitle';
+import AppControls from './components/AppControls';
+import Tasks from './components/Tasks';
 
 export default function App() {
     // Hard coding some tasks here just during UI development
@@ -17,9 +19,11 @@ export default function App() {
 
     return (
         <CenterBox>
-            {myTasks.map((task, index) => (
-                <Task task={task} key={index} />
-            ))}
+            <AppTitle />
+            <AppControls />
+            {/* Add TaskTimer component here */}
+            {/* Add EtaDisplay */}
+            <Tasks tasks={myTasks} />
         </CenterBox>
     )
 }
