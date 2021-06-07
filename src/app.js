@@ -14,6 +14,10 @@ export default function App() {
         {
             title: 'Take Shower',
             minutes: 15
+        },
+        {
+            title: 'Buffer',
+            minutes: 10
         }
     ];
 

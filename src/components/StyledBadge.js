@@ -7,8 +7,8 @@ import { makeStyles, withStyles } from '@material-ui/core/styles';
 // from the limited four built in anchorOrigin prop combinations
 const MyBadge = withStyles(() => ({
     badge: {
-        right: '-18%',
-        top: 13,
+        right: '-24px',
+        top: 17,
         padding: '0 4px'
     },
 }))(Badge);
