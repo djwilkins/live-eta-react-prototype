@@ -2,7 +2,7 @@ import React from 'react'
 import CenterBox from './components/CenterBox';
 import AppTitle from './components/AppTitle';
 import AppControls from './components/AppControls';
-import Tasks from './components/Tasks';
+import Tasks from './components/Tasks/Tasks';
 
 export default function App() {
     // Hard coding some tasks here just during UI development
