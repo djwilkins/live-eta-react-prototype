@@ -89,3 +89,13 @@ And creating Tasks, AppTitle and AppControls components (leaving TaskTimer and E
 Quick update adding icons in the Button(s) of the AppControls componenent.
 
 After first installing material ui buttons module - $ npm install @material-ui/icons
+
+# Creating Shared Components - StyledCard and StyledTypography
+
+In preperation for new "CurrentTask" and "EtaDisplay" components, created new shared component StyledTypography and extended StyledCard shared componenet with dynamic background color styling based on passed "style" prop (which can be a tasks status or other value.)
+
+Basically, just modularizing out usage of Material UI Card and Typography components here where plan to use similar styling in Tasks, CurrentTask and EtaDisplay components.
+
+# Created CurrentTask and Eta Display Components
+
+Created Current Task and Eta Display Componenent (later pending next commit).
