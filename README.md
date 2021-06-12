@@ -98,4 +98,8 @@ Basically, just modularizing out usage of Material UI Card and Typography compon
 
 # Created CurrentTask and Eta Display Components
 
-Created Current Task and Eta Display Componenent (later pending next commit).
+Created Current Task and Eta Display Componenent.
+
+Note: Currently using simple placeholders from hard coded time values.
+
+(Ex. EtaDisplay has total minutes of tasks now... later will be dynamic time to finish = currentTime + tasksTimeLeft)

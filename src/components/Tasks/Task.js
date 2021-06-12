@@ -7,7 +7,7 @@ export default function Task({task}) {
 
     return (
         <StyledCard style={task.status}>
-            <StyledBadge badgeContent={task.minutes < 10 ? `0${task.minutes}:00` : `${task.minutes}:00`} color="secondary">
+            <StyledBadge badgeContent={task.minutes.left < 10 ? `0${task.minutes.left}:00` : `${task.minutes.left}:00`} color="secondary">
                 <StyledTypography>
                     {task.title}
                 </StyledTypography>

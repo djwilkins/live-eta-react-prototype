@@ -2,11 +2,11 @@ import React from 'react'
 import StyledCard from './shared/StyledCard';
 import StyledTypography from './shared/StyledTypography';
 
-export default function CurrentTask({task}) {
+export default function EtaDisplay({eta}) {
     return (
-        <StyledCard style="highlight">
+        <StyledCard style="eta">
             <StyledTypography>
-               {`${task.title} (${task.minutes.left}:00)`}
+               {`ETA: ${eta} Minutes`} {/* Place holder for actual time */}
             </StyledTypography>
         </StyledCard>
     )
