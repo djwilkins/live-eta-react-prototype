@@ -103,3 +103,7 @@ Created Current Task and Eta Display Componenent.
 Note: Currently using simple placeholders from hard coded time values.
 
 (Ex. EtaDisplay has total minutes of tasks now... later will be dynamic time to finish = currentTime + tasksTimeLeft)
+
+# Enhanced StyledBadge for Different Task Status
+
+The StyledBadge like the StyledCard will now adjust color based on task status.

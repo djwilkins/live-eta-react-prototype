@@ -18,12 +18,12 @@ export default function App() {
             {
                 title: 'Take Shower',
                 minutes: { total: 15, left: 15 },
-                status: 'active'
+                status: 'skipped'
             },
             {
                 title: 'Buffer',
                 minutes: { total: 10, left: 10 },
-                status: 'active'
+                status: 'done'
             }
         ],
         current: 0

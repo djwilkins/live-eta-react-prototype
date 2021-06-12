@@ -1,7 +1,6 @@
 import React from 'react'
 import Card from '@material-ui/core/Card';
 import { createStyles, makeStyles } from '@material-ui/core/styles';
-import { gray } from '@material-ui/core/colors';
 
 const useStyles = makeStyles((Theme) => createStyles({
     card: {
@@ -20,7 +19,7 @@ const useStyles = makeStyles((Theme) => createStyles({
                 case 'done':
                     return Theme.palette.success.main
                 case 'skipped':
-                    return gray
+                    return "lightGray"
                 case 'highlight':
                     return Theme.palette.warning.dark
                 case 'eta':
@@ -28,7 +27,6 @@ const useStyles = makeStyles((Theme) => createStyles({
                 default:
                     return Theme.palette.info.main
             }
-            // if (style === 'active') { return Theme.palette.info.main };
         }
     }
 }));
